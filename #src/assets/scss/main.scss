@@ -1,0 +1,57 @@
+// --------vars and reboot--------
+
+@import "blocks/vars";
+@import "blocks/reboot/normalize";
+@import "blocks/reboot/reboot";
+
+// --------libraries--------
+
+// @import "blocks/outside/animate";
+// @import "blocks/outside/slick";
+// @import "blocks/outside/bootstrap-grid.min";
+// @import "blocks/outside/fancy";
+
+// --------fonts and specific--------
+
+@mixin font($font_name, $file_name, $weight, $style) {
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff2") format("woff2"),
+      url("../fonts/#{$file_name}.woff") format("woff");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+@import "blocks/fonts";
+@import "blocks/specific";
+
+// ---------main css------------
+
+@import "blocks/burger";
+@import "blocks/header";
+
+@import "blocks/footer";
+
+body {
+  background-color: #1e8bd3;
+}
+
+// Пример подключения
+// background: url(../img/test-small.jpg);
+
+.header {
+  font-weight: 300;
+  font-weight: 400;
+  font-weight: 500;
+  font-weight: 700;
+  font-weight: 900;
+}
+
+// -----------media-------------
+
+@import "blocks/media";
+
+// ---------IE styles-----------
+
+@import "blocks/IE";

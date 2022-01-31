@@ -1,0 +1,156 @@
+// rel="nofollow noopener noreferrer"
+// <!--noindex-->
+// <!--/noindex-->
+
+body.scroll {
+  overflow: hidden;
+}
+
+.animated {
+  opacity: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 320px;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.tel {
+  white-space: nowrap;
+}
+
+.section-title {
+  margin-bottom: 92px;
+  font-size: 40px;
+}
+
+// h1, h2, h3, h4, h5, h6 {
+// 	font-weight: ;
+// }
+
+// p {
+// 	line-height: ;
+// }
+
+body {
+  font: 400 17px "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: $color2;
+}
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
+// .btn {
+// 	width: 100%;
+// 	max-width: 243px;
+// 	text-align: center;
+// 	display: block;
+// 	padding: 2em 1em;
+// 	text-decoration: none;
+// 	background: #6E9C9F;
+// 	color: #fff;
+// 	letter-spacing: 0.02em;
+// 	transition: all .5s ease;
+// 	font-size: 17px;
+// 	border: 1px solid transparent;
+//  white-space: nowrap;
+// }
+
+// .btn:hover {
+// 	background: #509498;
+// 	border: 1px solid transparent;
+// }
+
+// .btn:active {
+// 	background: #2F8A8F;
+// }
+
+// .transparent-btn {
+// 	font-size: 17px;
+// 	width: 100%;
+// 	text-align: center;
+// 	display: block;
+// 	padding: 22px;
+// 	max-width: 243px;s
+// 	margin: 0 auto;
+// 	color: #6E9C9F;
+// 	letter-spacing: 0.02em;
+// 	background: transparent;
+// 	border: 1px solid #6E9C9F;
+// 	transition: all .5s ease;
+//  white-space: nowrap;
+// }
+
+// .transparent-btn:hover {
+// 	background: #6E9C9F;
+// 	color: #fff;
+// 	border: 1px solid #6E9C9F;
+// }
+
+// .transparent-btn:active {
+// 	background: #2F8A8F;
+// }
+
+// input {
+// box-shadow: none;
+// border-radius: 0;
+// 	max-width: ;
+// 	background: ;
+// 	border: ;
+// 	border-radius: 0;
+// 	font-size: ;
+// 	font-family: ;
+// 	font-weight: ;
+// 	color: ;
+// 	caret-color: pink;
+// }
+
+input:focus {
+  border: 1px solid #000;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.5s ease;
+  color: #000;
+}
+
+span {
+  display: inline-block;
+}
+
+// textarea {
+// box-shadow: none;
+// border-radius: 0;
+// 	min-width: ;
+// 	min-height: ;
+// 	padding-bottom: ;
+// 	font-weight: ;
+// 	font-size: ;
+// 	color: ;
+// 	border-bottom: ;
+// 	margin-bottom: ;
+// }
+
+// textarea:focus {
+
+// }
+
+// ::selection {
+// 	background: #6E9C9F;
+// 	color: #fff;
+// }
