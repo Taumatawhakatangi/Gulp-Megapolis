@@ -54,7 +54,6 @@ body {
 }
 
 // .btn {
-// 	width: 100%;
 // 	max-width: 243px;
 // 	text-align: center;
 // 	display: block;
@@ -80,7 +79,6 @@ body {
 
 // .transparent-btn {
 // 	font-size: 17px;
-// 	width: 100%;
 // 	text-align: center;
 // 	display: block;
 // 	padding: 22px;
@@ -116,26 +114,86 @@ body {
 // 	font-weight: ;
 // 	color: ;
 // 	caret-color: pink;
+//  outline: none;
 // }
 
 input:focus {
-  border: 1px solid #000;
+	border: 1px solid #000;
+	outline: none;
+}
+  
+input:hover {
+	color: #00BFBF;
+	border: 2px solid #80DFDF;
+}
+  
+input::-webkit-input-placeholder {
+	color: #2E4D95;
+	-webkit-transition: all .1s linear;
+	transition: all .1s linear;
+}
+  
+input::-moz-placeholder {
+	color: #2E4D95;
+	-moz-transition: all .1s linear;
+	transition: all .1s linear;
+}
+  
+input:-ms-input-placeholder {
+	color: #2E4D95;
+	-ms-transition: all .1s linear;
+	transition: all .1s linear;
+}
+  
+input::-ms-input-placeholder {
+	color: #2E4D95;
+	-ms-transition: all .1s linear;
+	transition: all .1s linear;
+}
+  
+input::placeholder {
+	color: #2E4D95;
+	transition: all .1s linear;
+}
+  
+input:hover::-webkit-input-placeholder {
+	color: #00BFBF;
+}
+  
+input:hover::-moz-placeholder {
+	color: #00BFBF;
+}
+  
+input:hover:-ms-input-placeholder {
+	color: #00BFBF;
+}
+  
+input:hover::-ms-input-placeholder {
+	color: #00BFBF;
+}
+  
+input:hover::placeholder {
+	color: #00BFBF;
+}
+  
+input:focus {
+	border: 2px solid #2E4D95;
+	font-weight: 600;
+	font-size: 20px;
+	color: #2E4D95
 }
 
-a {
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.5s ease;
-  color: #000;
-}
-
-span {
-  display: inline-block;
+input:invalid {
+	border: 2px solid #F61538;
+	color: red;
+	font-weight: 500;
+	font-size: 20px;
 }
 
 // textarea {
-// box-shadow: none;
-// border-radius: 0;
+// 	box-shadow: none;
+// 	border-radius: 0;
+// 	resize: none;
 // 	min-width: ;
 // 	min-height: ;
 // 	padding-bottom: ;
@@ -149,6 +207,17 @@ span {
 // textarea:focus {
 
 // }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.5s ease;
+  color: #000;
+}
+
+span {
+  display: inline-block;
+}
 
 // ::selection {
 // 	background: #6E9C9F;
